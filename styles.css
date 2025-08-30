@@ -4,3 +4,21 @@
     box-sizing: border-box;
     
 }
+body{
+    background: #191919;
+}
+.gallary{
+    width: 900px;
+    display: flex;
+}
+.gallary div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+.gallary div img{
+    width: 100%;
+
+}
